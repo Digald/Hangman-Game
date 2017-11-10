@@ -1,0 +1,68 @@
+body,
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background: #4568DC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #000428, #004e92);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #000428, #004e92);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+}
+
+body::after {
+    content: "";
+    background: url(https://i.ytimg.com/vi/L1sPEKxL4VE/maxresdefault.jpg);
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.title {
+    color: #2799FF;
+}
+
+.category {
+    color: #2799FF;
+}
+
+.wrap {
+    margin: 10% auto;
+    padding: 0;
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+.label {
+    color: #004D92;
+}
+
+#displayWord {
+    letter-spacing: 10px;
+    color: #00FF9F;
+    font-weight: bold;
+}
+
+#guessedWords {
+    letter-spacing: 5px;
+    color: #00FF9F;
+}
+
+.lives {
+    color: #00FF9F;
+}
+
+#newGame {
+    color: #2799FF;
+}
