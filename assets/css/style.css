@@ -18,7 +18,7 @@ body {
 
 body::after {
     content: "";
-    background: url(https://i.ytimg.com/vi/L1sPEKxL4VE/maxresdefault.jpg);
+    background: url(../images/starfield.png);
     opacity: 0.3;
     position: absolute;
     top: 0;
