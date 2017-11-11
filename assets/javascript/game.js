@@ -68,6 +68,7 @@ window.onload = function() {
                         if (letters + dash === chosenWord.length) {
                             displayLives.innerHTML = "YOU WON";
                             displayNewGame.innerHTML = 'PRESS "ENTER" TO CONTINUE';
+                            displayNewGame.style.visibility = "visible";
                             document.onkeyup = false;
                             document.onkeyup = function() {
                                 if (event.key === "Enter") {
